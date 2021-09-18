@@ -9,7 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		..\..\ORSCF.IdentityManagementSystem.Connector.nuspec = ..\..\ORSCF.IdentityManagementSystem.Connector.nuspec
 		..\..\Pack-ORSCF.IdentityManagementSystem.Connector.bat = ..\..\Pack-ORSCF.IdentityManagementSystem.Connector.bat
+		(tools)\UJMW.Readme.txt = (tools)\UJMW.Readme.txt
+		(tools)\UJMW.Sample.tt = (tools)\UJMW.Sample.tt
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestClient", "TestClient\TestClient.csproj", "{DD9C65CA-D638-4EFD-B815-DC34998D89FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{CE07ECC8-4066-4871-B00A-3C54503F94BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +27,16 @@ Global
 		{A4FACE69-1576-4C12-B4AA-8028767B3E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4FACE69-1576-4C12-B4AA-8028767B3E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4FACE69-1576-4C12-B4AA-8028767B3E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9C65CA-D638-4EFD-B815-DC34998D89FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9C65CA-D638-4EFD-B815-DC34998D89FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9C65CA-D638-4EFD-B815-DC34998D89FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9C65CA-D638-4EFD-B815-DC34998D89FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD9C65CA-D638-4EFD-B815-DC34998D89FA} = {CE07ECC8-4066-4871-B00A-3C54503F94BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {174839FD-71CD-40F0-9F70-CAE01B1C345A}
